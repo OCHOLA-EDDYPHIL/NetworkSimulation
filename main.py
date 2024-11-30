@@ -9,6 +9,9 @@ class Network:
         self.create_network()
 
     def create_network(self):
+        """
+                Create the network topology by adding nodes and weighted edges.
+        """
         # Add nodes
         nodes = [
             "Router", "Switch1", "Switch2",
@@ -39,6 +42,9 @@ class Network:
         self.graph.add_weighted_edges_from(edges)
 
     def display_network(self):
+        """
+                Visualize the network topology using Matplotlib.
+        """
         # Visualize the graph
         pos = nx.spring_layout(self.graph)  # Layout for clear visualization
         plt.figure(figsize=(12, 10))
@@ -56,7 +62,16 @@ class Network:
         plt.show()
 
     def find_shortest_path(self, source, target):
+        """
+                Find the shortest path between two nodes in the network.
 
+                Parameters:
+                source (str): The source node.
+                target (str): The target node.
+
+                Returns:
+                str: A message with the shortest path and its total weight, or an error message.
+        """
         try:
             if source not in self.graph or target not in self.graph:
                 return f"Error: One or both nodes '{source}' and '{target}' do not exist in the network."
