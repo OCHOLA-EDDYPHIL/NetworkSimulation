@@ -1,6 +1,6 @@
-# Enhanced SCES School Network
+# Basic SCES School Network
 
-This project simulates an enhanced SCES school network using Python, NetworkX, and Matplotlib. It allows users to visualize the network topology and find the shortest path between nodes.
+This project simulates a basic version of SCES school network using Python, NetworkX, and Matplotlib. It allows users to visualize the network topology and find the shortest path between nodes.
 
 ## Features
 
@@ -18,8 +18,8 @@ This project simulates an enhanced SCES school network using Python, NetworkX, a
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/OCHOLA-EDDYPHIL/NetworkSimulation.git
+    cd (directory)
     ```
 
 2. Create and activate a virtual environment:
