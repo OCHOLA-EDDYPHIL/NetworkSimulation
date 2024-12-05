@@ -19,6 +19,8 @@ This project simulates a basic version of SCES school network using Python, Netw
 1. Clone the repository:
     ```sh
     git clone https://github.com/OCHOLA-EDDYPHIL/NetworkSimulation.git
+    ```
+    ```sh
     cd (directory)
     ```
 
